@@ -1,0 +1,602 @@
+
+body, html {
+    height: 100%;
+    color: #D5F2E3 !important;
+    font-family: 'Proza Libre', sans-serif;
+    background: linear-gradient(to right,#73BA9B, #01110A);
+}
+
+h1 {
+    font-size:2em;
+}
+
+.prd-img {
+  width: 70px;
+  height: 70px;
+}
+
+/*for navbar and heading*/
+
+
+#nav {
+    margin-bottom: 10px ;
+    z-index: 1;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #D5F2E3 !important;
+    background-color: #01110A:
+}
+
+.navbar-nav {
+    color: #D5F2E3;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    color: #D5F2E3 !important;  
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #73BA9B;  
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #D5F2E3;  
+}
+.container {
+    min-width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.jumbotron {
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0);
+    text-align: center;
+    margin-top: 10px;
+}
+.pre-parallax {
+    padding: 0vw 5vw 0vw 5vw;
+    margin: 15px 0px 15px 0px;
+}
+
+
+.well {
+    background-color: rgba(0,62,31, 0.5) !important;
+}
+
+hr {
+border-top: 5px double #01110A !important;
+}
+
+h2 {
+text-align: center;
+}
+
+.product {
+    margin: 0px !important;
+
+}
+
+.products {
+    max-height: 430px !important;
+    overflow: scroll;
+}
+
+
+.parallax2 { 
+    /* The image used */
+    background-image: url("image/moyu.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    max-height: 300px;
+    clear: both;
+}
+
+
+/*Blog CSS*/
+
+
+#top-story {
+	margin-top: 4vw;
+	min-height: 65vw;
+	max-height: 65vw;
+	background-image: url(image/top-story.png);
+	background-size: cover;
+}
+#side-story {
+	margin-top: 4vw;
+	min-height: 65vw;
+	margin-right: 0px !important;
+	padding: 0px !important;
+}
+
+.sub-side {
+	margin: 0px;
+}
+
+.well60 {
+	margin: 0px;
+	min-height: 39vw;
+}
+
+.well40 {
+	margin: 0px;
+	min-height: 26vw;
+}
+
+.sub-side {
+	padding: 0px !important;
+}
+
+#top-story>h1 {
+	position: absolute;
+	bottom: 10vw;
+	font-size: 2em;
+}
+
+#side1 {
+	background-image: url(image/side-story1.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+#side1>h1 {
+	position: absolute;
+	bottom: 5vw;
+	font-size: 2em;
+}
+
+
+#side2 {
+	background-image: url(image/side-story2.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+#side2>h1 {
+	position: absolute;
+	bottom: 7vw;
+	font-size: 2em;
+}
+
+
+#side3 {
+	background-image: url(image/side-story3.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+#side3>h1 {
+	position: absolute;
+	bottom: 2vw;
+	font-size: 2em;
+}
+
+#side4 {
+	background-image: url(image/side-story4.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+#side4>h1 {
+	position: absolute;
+	bottom: 5vw;
+	font-size: 2em;
+}
+
+/*Shop CSS*/
+
+#shopdrop {
+	margin-top: 5vw;
+}
+
+.shopdrop {
+    border: none;
+    background-color: rgba(0,62,31, 0) !important;
+    color: #D5F2E3 !important;
+    padding-left: 2vw;
+}
+
+.dropdown-menu>li>a {
+	background-color: #003E1F !important;
+}
+
+
+.carousel-image {
+	padding: 0vw 12vw 0vw 12vw !important;
+	min-height: 58vw;
+}
+
+h3 {
+	text-align: center;
+}
+
+.pop-pro {
+
+	width: 31vw;
+	min-height: 33vw;
+	margin: 1vw;
+}
+
+#pro1 {
+	background-image: url(image/Product1.jpg);
+	background-size: cover;
+	margin-left: 2vw;
+}
+#pro2 {
+	background-image: url(image/side-story2.jpg);	
+	background-size: cover;
+}
+
+#pro3 {
+	background-image: url(image/Product3.jpg);	
+	background-size: cover;
+}
+
+/*Desktop Styles*/
+
+
+@media only screen and (min-width: 961px){
+
+.container {
+  margin-right: 0px;
+  width: 100%;
+}
+
+#hero {
+     min-height: 55vw;  
+}
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("image/home-bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 90vw 55vw;
+    border-radius: 20px; 
+
+}
+
+
+p{
+  font-size: 1.33em !important;
+}
+
+}
+
+
+/*Tablet Styles*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+#hero {
+  min-height: 60vw  ;
+  background-image: url("image/home-bg.jpg");
+  background-size: 100%;  
+  background-position: center top;
+}
+
+.jumbotron {
+  position: inherit;
+  color: #D5F2E3;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("image/home-bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px; 
+}
+ 
+ p{
+  font-size: 1em !important;
+}
+
+.container {
+  margin-right: 0px;
+}
+#parallax {
+      /* The image used */
+    background-image: url("image/The_Gear_Cube.jpg");
+
+    /* Full height */
+    height: 20vw; 
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100vw 90vw;
+    clear: both;
+    border-radius: 1vw;
+}
+
+
+#top-story {
+	margin-top: 4vw;
+	min-height: 65vw;
+	max-height: 65vw;
+	background-image: url(image/top-story.png);
+	width: 100%;
+}
+}
+
+/*Mobile Styles*/
+
+@media only screen and (max-width: 400px) {
+
+#hero {
+  max-height: 60vw;
+/*  background-size: 100%;  
+*/  background-position: center top;
+}
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("image/home-bg.jpg");
+
+    /* Full height */
+    height: 60vw; 
+
+    /* Create the parallax srolling effect */
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100vw 70vw;
+    border-radius: 5px; 
+    max-height: : 60vw;
+    width: 100%;
+  }
+
+p{
+  font-size: 1em !important;
+}
+
+.product {
+    max-height: 33vw;
+    overflow: scroll !important;
+    padding: 1vw;
+}
+
+.products {
+    padding: 3vw;
+}
+
+.media-body>p {
+  font-size: 0.65em !important;
+}
+
+}
+
+
+
+
+
+
+
+
+/*Log-in CSS*/
+
+input {
+	color: #01110A !important;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* Bordered form */
+/*form {
+    border: 3px solid #D5F2E3;
+}*/
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    float: left;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+#cancel {
+    width: 50;
+    padding: 10px 18px;
+    background-color: #BA2D0B;
+}
+
+
+
+
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+#forgot {
+	width: 85%;
+}
+
+a {
+	color: #73BA9B !important;
+	text-decoration: none !important;
+
+}
+
+
+/*Sign up css*/
+
+body {
+    color: #D5F2E3 !important;
+
+}
+
+#sign {
+	border:1px solid #ccc;
+	margin-top: 120px !important;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 33%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+#sign-contain {
+	margin: 0px;
+	width: 100%;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#term {
+	color:dodgerblue
+}
+
+
+#remember {
+	margin-bottom:15px
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+

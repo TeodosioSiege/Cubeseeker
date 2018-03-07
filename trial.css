@@ -1,0 +1,254 @@
+
+body, html {
+    height: 100%;
+    color: #D5F2E3;
+    font-family: 'Proza Libre', sans-serif;
+    background: linear-gradient(to right,#73BA9B, #01110A);
+}
+
+h1 {
+    font-size:2em;
+}
+
+.prd-img {
+  width: 70px;
+  height: 70px;
+}
+
+/*for navbar and heading*/
+
+
+#nav {
+    margin-bottom: 10px ;
+    z-index: 1;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #D5F2E3;
+    background-color: #01110A:
+}
+
+.navbar-nav {
+    color: #D5F2E3;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    color: #D5F2E3;  
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #73BA9B;  
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #D5F2E3;  
+}
+.container {
+    min-width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.jumbotron {
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0);
+    text-align: center;
+    margin-top: 10px;
+}
+.pre-parallax {
+    padding: 0vw 5vw 0vw 5vw;
+    margin: 15px 0px 15px 0px;
+}
+
+
+.well {
+    background-color: rgba(0,62,31, 0.5) !important;
+}
+
+hr {
+border-top: 5px double #01110A !important;
+}
+
+h2 {
+text-align: center;
+}
+
+.product {
+    margin: 0px !important;
+
+}
+
+.products {
+    max-height: 430px !important;
+    overflow: scroll;
+}
+
+
+.parallax2 { 
+    /* The image used */
+    background-image: url("css/image/moyu.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    max-height: 300px;
+    clear: both;
+}
+
+/*Desktop Styles*/
+
+
+@media only screen and (min-width: 961px){
+
+.container {
+  margin-right: 0px;
+  width: 100%;
+}
+
+#hero {
+     min-height: 55vw;  
+}
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("css/image/home-bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 90vw 55vw;
+    border-radius: 20px; 
+
+}
+
+
+p{
+  font-size: 1.33em !important;
+}
+
+}
+
+
+/*Tablet Styles*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+#hero {
+  min-height: 60vw  ;
+  background-image: url("css/image/home-bg.jpg");
+  background-size: 100%;  
+  background-position: center top;
+}
+
+.jumbotron {
+  position: inherit;
+  color: #D5F2E3;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("css/image/home-bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px; 
+}
+ 
+ p{
+  font-size: 1em !important;
+}
+
+.container {
+  margin-right: 0px;
+}
+#parallax {
+      /* The image used */
+    background-image: url("css/image/The_Gear_Cube.jpg");
+
+    /* Full height */
+    height: 20vw; 
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100vw 90vw;
+    clear: both;
+    border-radius: 1vw;
+}
+}
+
+/*Mobile Styles*/
+
+@media only screen and (max-width: 400px) {
+
+#hero {
+  max-height: 60vw;
+/*  background-size: 100%;  
+*/  background-position: center top;
+}
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("css/image/home-bg.jpg");
+
+    /* Full height */
+    height: 60vw; 
+
+    /* Create the parallax srolling effect */
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100vw 70vw;
+    border-radius: 5px; 
+    max-height: : 60vw;
+    width: 100%;
+  }
+
+p{
+  font-size: 1em !important;
+}
+
+.product {
+    max-height: 33vw;
+    overflow: scroll !important;
+    padding: 1vw;
+}
+
+.products {
+    padding: 3vw;
+}
+
+.media-body>p {
+  font-size: 0.65em !important;
+}
+
+
+}
+
